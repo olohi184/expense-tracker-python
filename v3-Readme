@@ -1,0 +1,13 @@
+# Expense Tracker (CSV Save Version)
+
+This is Version 3 of the Expense Tracker project.  
+It improves on Version 2 by saving all entered expenses into a **CSV file** so that data is not lost when the program ends.
+
+## Features
+- Enter multiple expenses interactively
+- Quit when done
+- Automatically calculate and display total
+- Save all expenses into a file called `expenses.csv`
+
+## Example Run
+
