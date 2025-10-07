@@ -1,0 +1,31 @@
+# expense_tracker_input.py
+
+# Dictionary to store expenses
+expenses = {}
+
+print("Welcome to Expense Tracker!")
+print("Enter your expenses. Type 'q' when done.\n")
+
+# Loop to collect user input
+while True:
+    item = input("Enter expense item (or 'q' to quit): ")
+    
+    if item.lower() == 'q':
+        break
+    
+    try:
+        amount = float(input(f"Enter amount for {item}: "))
+        expenses[item] = amount
+    except ValueError:
+        print("❌ Invalid amount. Please enter a number.")
+
+# Calculate total expenses
+total = sum(expenses.values())
+
+print("\n📝 Your Expenses:")
+for item, amount in expenses.items():
+    print(f"- {item}: {amount}")
+
+print(f"\n💰 Total Expenses = {total}")
+
+  "Added user input version"
