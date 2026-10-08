@@ -1,5 +1,7 @@
 # Expense Tracker — Python CLI
 
+[![Python Tests](https://github.com/olohi184/expense-tracker-python/actions/workflows/python-tests.yml/badge.svg)](https://github.com/olohi184/expense-tracker-python/actions/workflows/python-tests.yml)
+
 A small, runnable Python expense tracker built from an earlier Jupyter/Colab learning project. Enter multiple expenses with a category and amount, view a total, and export a dated CSV report.
 
 ## Features
